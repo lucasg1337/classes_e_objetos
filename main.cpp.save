@@ -1,0 +1,27 @@
+#include <iostream>
+import 
+
+using namespace std;
+
+class Usuario{//declaracao da classe Usuario
+    public:
+        string name = "";
+        short int idade = 0;
+        char email[30] = " ";
+
+
+};
+
+Usuario um; //instanciando/declarando um objeto da classe
+
+
+
+int main()
+{
+    cout << "digite seu nome: "; cin >> um.name;
+    cout << "digite sua idade: " << endl; cin >> um.idade;
+    cout << "digite seu email" << endl; cin >> um.email;
+    system(clear);
+    cout << "NOME : " << um.name  << endl << cout << "IDADE  " << um.idade << "EMAIL : " << um.email;
+    return 0;
+}
